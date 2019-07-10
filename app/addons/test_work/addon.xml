@@ -9,4 +9,8 @@
     <language_variables>
         <item lang="ru" id="test_work.ean">Ean-код</item>
     </language_variables>
+    <queries>
+        <item>ALTER TABLE `?:products` ADD `ean_code` varchar(32) NOT NULL default '' AFTER product_id</item>
+        <item for="uninstall">ALTER TABLE  `?:products` DROP `ean_code`</item>
+    </queries>
 </addon>
