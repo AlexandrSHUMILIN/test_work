@@ -5,5 +5,8 @@
     <priority>4294967294</priority>
     <position>0</position>
     <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
-    <default_language>en</default_language>
+    <default_language>ru</default_language>
+    <language_variables>
+        <item lang="ru" id="test_work.ean">Ean-код</item>
+    </language_variables>
 </addon>

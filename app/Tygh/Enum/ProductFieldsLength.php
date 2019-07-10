@@ -22,4 +22,5 @@ namespace Tygh\Enum;
 class ProductFieldsLength
 {
     const PRODUCT_CODE = 64;
+    const EAN_CODE = 13;
 }
