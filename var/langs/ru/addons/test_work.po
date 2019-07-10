@@ -18,5 +18,5 @@ msgstr "Тестовое задание"
 
 msgctxt "Addons::description::test_work"
 msgid "A dummy add-on for easier hook design editing"
-msgstr "Специальный модуль для внесения собственных изменений в платформу"
+msgstr "Модуль добавляет ean_code для таблицы продуктов"
 
