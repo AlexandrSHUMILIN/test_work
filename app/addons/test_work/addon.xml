@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>test_work</id>
+    <version>1.0</version>
+    <priority>4294967294</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>ru</default_language>
+    <language_variables>
+        <item lang="ru" id="test_work.ean">Ean-код</item>
+    </language_variables>
+    <queries>
+        <item>ALTER TABLE `?:products` ADD `ean_code` varchar(32) NOT NULL default '' AFTER product_id</item>
+        <item for="uninstall">ALTER TABLE  `?:products` DROP `ean_code`</item>
+    </queries>
+</addon>
